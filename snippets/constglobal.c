@@ -1,14 +1,7 @@
 #include <stdio.h>
 
-int COUNTER = 0;
-
-int countCalls() {
-    COUNTER += 1;
-    return COUNTER;
-}
+const double EULERS_NUMBER = 2.7182818284590452;
 
 int main() {
-    printf("%d\n", countCalls());
-    printf("%d\n", countCalls());
-    printf("%d\n", countCalls());
+    printf("%g\n", EULERS_NUMBER);
 }
