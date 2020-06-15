@@ -17,5 +17,5 @@ int find_triple(int max) {
 
 int main() {
     int triple_exists = find_triple(13);
-    printf("Triple exists? %s", triple_exists);
+    printf("Triple exists? %d\n", triple_exists);
 }
